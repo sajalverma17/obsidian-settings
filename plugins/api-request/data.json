@@ -1,0 +1,16 @@
+{
+  "DisabledReq": "This request is disabled",
+  "Key": "fitbit_accesstoken",
+  "Value": "<accesstoken>",
+  "KeyValueCodeblocks": [
+    {
+      "key": "fitbit_refreshtoken",
+      "value": "<refreshtoken>"
+    },
+    {
+      "key": "fitbit_accesstoken",
+      "value": "<accesstoken>"
+    }
+  ],
+  "countBlocksText": "Count blocks: %d"
+}
