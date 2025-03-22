@@ -15,5 +15,13 @@
       ],
       "key": "P"
     }
+  ],
+    "webviewer:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "L"
+    }
   ]
 }
