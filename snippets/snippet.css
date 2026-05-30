@@ -1,0 +1,33 @@
+body {
+	/* Always match titlebar with editor background */
+    --titlebar-background: var(--background-primary);
+    --titlebar-background-focused: var(--background-primary);
+
+    /* Internal links → regular text color */
+    --link-color: var(--text-normal);
+    --link-unresolved-color: var(--text-normal);
+
+    /* External links → regular text color */
+    --link-external-color: var(--text-normal);
+}
+
+/* Editor mode internal links → regular text color */
+.cm-link:not(:has(~ .external-link)) .cm-underline {
+    color: var(--text-normal) !important;
+}
+
+/* Editor mode internal + external links → regular text color  */
+.cm-link .cm-underline {
+    color: var(--text-normal) !important;
+}
+
+/* Editor mode links → accent color on hover */
+.cm-link .cm-underline:hover {
+    color: var(--text-accent-hover) !important;
+}
+
+/* Bright white bold in dark themes */
+.theme-dark strong,
+.theme-dark .cm-strong {
+    color: #F2F0E5;
+}

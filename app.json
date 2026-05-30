@@ -1,5 +1,23 @@
 {
   "alwaysUpdateLinks": true,
   "useMarkdownLinks": true,
-  "attachmentFolderPath": "./attachments"
+  "attachmentFolderPath": "./attachments",
+  "promptDelete": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Inbox",
+  "mobileToolbarCommands": [
+    "editor:undo",
+    "editor:redo",
+    "editor:paste",
+    "editor:insert-wikilink",
+    "editor:attach-file",
+    "editor:toggle-bold",
+    "editor:toggle-strikethrough",
+    "editor:toggle-blockquote",
+    "insert-template",
+    "editor:indent-list",
+    "editor:unindent-list",
+    "editor:configure-toolbar"
+  ],
+  "showUnsupportedFiles": true
 }

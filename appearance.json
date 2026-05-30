@@ -1,8 +1,7 @@
 {
-  "accentColor": "",
-  "theme": "system",
-  "cssTheme": "GitHub Theme",
+  "cssTheme": "",
   "enabledCssSnippets": [
-    "bolder-bold"
-  ]
+    "snippet"
+  ],
+  "textFontFamily": "Inter"
 }
