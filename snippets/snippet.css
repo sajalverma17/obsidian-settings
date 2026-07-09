@@ -1,0 +1,43 @@
+/* Variable overrides */
+body {
+	/* Always match titlebar with editor background */
+    --titlebar-background: var(--background-primary);
+    --titlebar-background-focused: var(--background-primary);
+
+    /* Internal links → regular text color */
+    --link-color: var(--text-normal);
+
+    /* External links → regular text color */
+    --link-external-color: var(--text-normal);
+
+    /* Unresolved links → regular text color */
+    --link-unresolved-color: var(--text-normal); /* no accent, grey-out remains */
+}
+
+/* Links */
+.internal-link,
+.external-link,
+.markdown-rendered a {
+    text-decoration-line: underline !important;
+}
+
+/* Editor mode links */
+.cm-link .cm-underline {
+    color: var(--text-normal) !important;
+    text-decoration-line: underline !important;
+    text-decoration-color: var(--text-normal) !important;
+
+    &:hover {
+        color: var(--text-accent-hover) !important;
+    }
+}
+
+/* Tip: Editor mode's internal-only-link selector
+.cm-link:not(:has(~ .external-link)) .cm-underline {}
+*/
+
+/* Bright white bold in dark themes */
+.theme-dark strong,
+.theme-dark .cm-strong {
+    color: #F2F0E5;
+}

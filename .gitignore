@@ -1,0 +1,11 @@
+workspace*
+fts-search-index.db
+appearance.json
+bookmarks.json
+graph.json
+canvas.json
+community-plugins.json
+core-plugins.json
+core-plugins-migration.json
+plugins/
+themes/
